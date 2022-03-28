@@ -1,1 +1,1 @@
-# przetwarzanie-danych-iot-pwr-2022
+# Przetwarzanie danych w sieciach IoT
