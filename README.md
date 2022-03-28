@@ -1,0 +1,1 @@
+# przetwarzanie-danych-iot-pwr-2022
