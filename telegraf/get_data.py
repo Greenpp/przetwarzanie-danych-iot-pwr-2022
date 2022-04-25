@@ -13,8 +13,10 @@ def get_data_points(device_name):
         )
     if device_name == 'paw': #chuj wi ktory to ktory
         device = m[0]
-    else:
+    elif device_name == 'gil':
         device = m[1]
+    else:
+        raise Exception(f'No such device as {device_name}')
         
     payload = json.loads(device.payload)['uplink_message']['decoded_payload']
     humidity = payload['humidity']
