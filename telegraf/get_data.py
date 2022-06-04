@@ -11,7 +11,7 @@ def get_data_points(device_name):
         auth={'username':"pwr-iot-2022",'password':'NNSXS.24TRHAQZJCF3UL74GMUXXVLR63KLYLKE2SEXSNI.O2GZUKUNG3I5DJSPGBKE7KCD45KSWQC45AGEVJ2DGCNJB3ZFYKWQ'},
         msg_count=2
         )
-    if device_name == 'paw': #chuj wi ktory to ktory
+    if device_name == 'paw': 
         device = m[0]
     elif device_name == 'gil':
         device = m[1]
